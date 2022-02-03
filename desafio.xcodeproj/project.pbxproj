@@ -11,6 +11,14 @@
 		C9436464733E3C9728C37102 /* Pods_desafio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7323507C0C96FA6CF1B90D6 /* Pods_desafio.framework */; };
 		E719221B27AABBA900DF79B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E789D74F27AAACDE00B78458 /* AppDelegate.swift */; };
 		E719221C27AABBA900DF79B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E789D74F27AAACDE00B78458 /* AppDelegate.swift */; };
+		E719221F27AAF59100DF79B0 /* MovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E719221E27AAF59100DF79B0 /* MovieView.swift */; };
+		E719222427AAFCF900DF79B0 /* MoviePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E719222327AAFCF900DF79B0 /* MoviePresenter.swift */; };
+		E719222727AAFD4000DF79B0 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E719222627AAFD4000DF79B0 /* MovieModel.swift */; };
+		E719222A27AAFEBB00DF79B0 /* MovieDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = E719222927AAFEBB00DF79B0 /* MovieDetails.swift */; };
+		E719222C27AAFEFE00DF79B0 /* MovieListItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = E719222B27AAFEFE00DF79B0 /* MovieListItems.swift */; };
+		E719222F27AAFF6600DF79B0 /* GenreServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = E719222E27AAFF6600DF79B0 /* GenreServices.swift */; };
+		E719223127AAFFC900DF79B0 /* MovieServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = E719223027AAFFC900DF79B0 /* MovieServices.swift */; };
+		E719223427AB001600DF79B0 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = E719223327AB001600DF79B0 /* Services.swift */; };
 		E789D75027AAACDE00B78458 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E789D74F27AAACDE00B78458 /* AppDelegate.swift */; };
 		E789D75227AAACDE00B78458 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E789D75127AAACDE00B78458 /* SceneDelegate.swift */; };
 		E789D75427AAACDE00B78458 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E789D75327AAACDE00B78458 /* ContentView.swift */; };
@@ -48,6 +56,14 @@
 		AA475ECBDB7D022D03C8A9E1 /* Pods-desafio-desafioUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-desafio-desafioUITests.release.xcconfig"; path = "Target Support Files/Pods-desafio-desafioUITests/Pods-desafio-desafioUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BE23D754C59DD1E2E1C8034B /* Pods_desafioTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_desafioTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7D53BD9CC210891803C30AE /* Pods-desafio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-desafio.release.xcconfig"; path = "Target Support Files/Pods-desafio/Pods-desafio.release.xcconfig"; sourceTree = "<group>"; };
+		E719221E27AAF59100DF79B0 /* MovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieView.swift; sourceTree = "<group>"; };
+		E719222327AAFCF900DF79B0 /* MoviePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePresenter.swift; sourceTree = "<group>"; };
+		E719222627AAFD4000DF79B0 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		E719222927AAFEBB00DF79B0 /* MovieDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetails.swift; sourceTree = "<group>"; };
+		E719222B27AAFEFE00DF79B0 /* MovieListItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListItems.swift; sourceTree = "<group>"; };
+		E719222E27AAFF6600DF79B0 /* GenreServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreServices.swift; sourceTree = "<group>"; };
+		E719223027AAFFC900DF79B0 /* MovieServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieServices.swift; sourceTree = "<group>"; };
+		E719223327AB001600DF79B0 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
 		E7323507C0C96FA6CF1B90D6 /* Pods_desafio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_desafio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E789D74C27AAACDE00B78458 /* desafio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = desafio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E789D74F27AAACDE00B78458 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +132,49 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		E719221D27AAF56000DF79B0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E719221E27AAF59100DF79B0 /* MovieView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E719222227AAFCE100DF79B0 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				E719222327AAFCF900DF79B0 /* MoviePresenter.swift */,
+			);
+			path = Presenters;
+			sourceTree = "<group>";
+		};
+		E719222527AAFD2900DF79B0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E719222627AAFD4000DF79B0 /* MovieModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E719222827AAFEA000DF79B0 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E719222927AAFEBB00DF79B0 /* MovieDetails.swift */,
+				E719222B27AAFEFE00DF79B0 /* MovieListItems.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E719222D27AAFF4D00DF79B0 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E719222E27AAFF6600DF79B0 /* GenreServices.swift */,
+				E719223027AAFFC900DF79B0 /* MovieServices.swift */,
+				E719223327AB001600DF79B0 /* Services.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		E789D74327AAACDE00B78458 = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +200,11 @@
 		E789D74E27AAACDE00B78458 /* desafio */ = {
 			isa = PBXGroup;
 			children = (
+				E719222D27AAFF4D00DF79B0 /* Services */,
+				E719222827AAFEA000DF79B0 /* Components */,
+				E719222527AAFD2900DF79B0 /* Models */,
+				E719222227AAFCE100DF79B0 /* Presenters */,
+				E719221D27AAF56000DF79B0 /* Views */,
 				E789D74F27AAACDE00B78458 /* AppDelegate.swift */,
 				E789D75127AAACDE00B78458 /* SceneDelegate.swift */,
 				E789D75327AAACDE00B78458 /* ContentView.swift */,
@@ -416,8 +480,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E719222727AAFD4000DF79B0 /* MovieModel.swift in Sources */,
+				E719222A27AAFEBB00DF79B0 /* MovieDetails.swift in Sources */,
+				E719223127AAFFC900DF79B0 /* MovieServices.swift in Sources */,
+				E719223427AB001600DF79B0 /* Services.swift in Sources */,
+				E719222F27AAFF6600DF79B0 /* GenreServices.swift in Sources */,
 				E789D75027AAACDE00B78458 /* AppDelegate.swift in Sources */,
+				E719221F27AAF59100DF79B0 /* MovieView.swift in Sources */,
 				E789D75227AAACDE00B78458 /* SceneDelegate.swift in Sources */,
+				E719222C27AAFEFE00DF79B0 /* MovieListItems.swift in Sources */,
+				E719222427AAFCF900DF79B0 /* MoviePresenter.swift in Sources */,
 				E789D75427AAACDE00B78458 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -594,6 +666,7 @@
 				DEVELOPMENT_TEAM = NB484GGD52;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = desafio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -601,7 +674,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Ba-rbara-Zaccarias.desafio";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -616,6 +689,7 @@
 				DEVELOPMENT_TEAM = NB484GGD52;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = desafio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -623,7 +697,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Ba-rbara-Zaccarias.desafio";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
