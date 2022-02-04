@@ -36,7 +36,7 @@ Qualquer dúvida, técnica ou não, você pode entrar em contato respondendo o e
 ## Boa sorte! :)
 
 # Requisitos minimos
--   iOs 14.1 minimum
+-   iOs 14.1 
 
 ## Linguagens, biblioteca e ferramentas utilizadas
 * [Swift](https://www.swift.org/)
