@@ -35,21 +35,22 @@ Qualquer dúvida, técnica ou não, você pode entrar em contato respondendo o e
   
 ## Boa sorte! :)
 
-# Requirements
+# Requisitos minimos
 -   iOs 14.1 minimum
 
-## Languages, libraries and tools used
+## Linguagens, biblioteca e ferramentas utilizadas
 * [Swift](https://www.swift.org/)
+* [SwiftUI](https://developer.apple.com/tutorials/swiftui/creating-and-combining-views)
 * [RxSwift](https://github.com/ReactiveX/RxSwift)
 * [Alamofire](https://github.com/Alamofire/Alamofire)
 * [SDWebImageSwiftUI](https://github.com/SDWebImage/SDWebImageSwiftUI)
 
 
-## Project ScreenShots
+## ScreenShots do projeto
 
 <img width="334" alt="Captura de Tela 2022-02-04 às 14 02 13" src="https://user-images.githubusercontent.com/91777799/152571034-b93e203c-70d2-484b-97e0-1b5223bf2e52.png">
 
 
-## iOS Architecture components with MVP
+## Componentes iOS Architecture com MVP
 - Escolhi o MVP como approach pois este padrão me permite testar os contratos com a View em um projeto que não implementa testes de UI.
 ![MVP](https://miro.medium.com/max/1400/1*W6m93rWE1JVZafSy5U5wDQ.png)
