@@ -61,7 +61,7 @@ struct MovieDetails: View {
                     Image("fire-alt-solid").resizable()
                         .frame(width: 15,height: 15)
                         .foregroundColor(.white)
-                    Text(String(format: "%d Views",movie.popularity))
+                    Text(String(format: "%d Views",Int (movie.popularity)))
                         .foregroundColor(.white)
                         .font(.system(size: 16))
                 }.padding(.leading,20)
